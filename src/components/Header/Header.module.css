@@ -1,0 +1,99 @@
+.mainHeaderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.firstContainer {
+  display: flex;
+  margin-left: 50px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.textLogo {
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0px 35px 0px 10px;
+}
+.linkBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.linkBtn button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  margin: 0px 10px 0px 10px;
+  cursor: pointer;
+  transition: background 0.5s ;
+}
+.linkBtn button:hover {
+ background-color: rgba(255, 202, 66, 1);
+ border: 1px solid rgba(255, 202, 66, 1);
+}
+
+.secondContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.secondContainer a {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0px 30px 0px 30px;
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+.secondContainer a:hover {
+  text-decoration: underline;
+}
+.cartImg{
+  margin-right: 35px;
+} 
+.navButton{
+  display: flex;
+  padding: 19px 52px;
+  background-color: rgba(255, 202, 66, 1);
+  font-family: 'Cardo', sans-serif;
+  border: 2px;
+  font-size: 19px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+.navButton:hover{
+  background-color: rgb(187, 147, 45);
+}
+
+/* @media (max-width: 767px){
+  .textLogo {
+    font-size: 50px; 
+  }
+  .linkBtn button {
+    width: 55px;
+    height: 55px;
+  }
+  .linkBtn button img {
+    width: 22px;
+    height: 30px;
+  }
+  .secondContainer a {
+ font-size: 27px;
+ margin: 0px 13px 0px 13px;
+  }
+  .cartImg{
+    width: 35px;
+    height: 35px;
+    margin-right: 35px;
+  } 
+  .navButton{
+    font-size: 31px;
+    padding: 25px 45px;
+    margin-right: 20px;
+  }
+} */

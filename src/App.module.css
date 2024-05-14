@@ -1,0 +1,15 @@
+.mainContainer{
+  min-width: 1300px;
+}
+.blueContainer {
+  background-color: rgba(27, 55, 100, 1);
+}
+.greyContainer {
+  background-color: rgba(245, 248, 252, 1);
+}
+.getBookContainer{
+    background-color: rgba(27, 55, 100, 1) ;
+}
+.footer{
+  background-color: rgba(27, 55, 100, 1);
+}

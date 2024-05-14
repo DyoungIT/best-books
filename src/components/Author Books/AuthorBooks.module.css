@@ -1,0 +1,102 @@
+.mainContainer {
+  display: block;
+  margin-top: 100px;
+  margin-bottom: 110px;
+}
+.titleBlock {
+  display: flex;
+  font-family: "Cardo", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  justify-content: center;
+  color: rgba(27, 55, 100, 1);
+}
+.titleBlock::before {
+  content: "";
+  position: absolute;
+  background-color: rgba(255, 202, 66, 1);
+  width: 35px;
+  height: 2px;
+  margin-top: 90px;
+  margin-left: 0px;
+}
+.mainBlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.descriptionBlock {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.textBlock{
+  margin-left: 35px;
+}
+
+
+.titleBook {
+  font-family: "Cardo", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  color: rgba(27, 55, 100, 1);
+  margin-bottom: 7px;
+}
+.priceBook {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  color: rgba(255, 202, 66, 1);
+  margin: 0px 0px;
+}
+.descriptionBook {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(150, 154, 160, 1);
+}
+.bookImage {
+  float: left;
+}
+.printedBook {
+  font-family: "Cardo", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: rgba(27, 55, 100, 1);
+  margin-top: 0px;
+  margin-bottom: 27px;
+}
+.printedBook::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  margin-left: -25px;
+  margin-top: 8px;
+  border-radius: 50%;
+  background-color: rgba(255, 202, 66, 1);
+}
+.orderBtn {
+  font-family: "Cardo", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(27, 55, 100, 1);
+  background-color: transparent;
+  border: 2px solid rgba(255, 202, 66, 1);
+  padding: 19px 52px;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+.orderBtn:hover {
+  background-color: rgb(231, 180, 52);
+}
+@media (max-width: 1300px){
+  .mainBlock {
+    flex-direction: column;
+  }
+}

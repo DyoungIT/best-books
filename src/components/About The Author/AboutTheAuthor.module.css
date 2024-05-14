@@ -1,0 +1,128 @@
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 40px;
+}
+.imgContainer {
+  border: solid 10px rgba(255, 202, 66, 1);
+  width: 545px;
+  height: 625px;
+}
+.imgContainer img {
+  position: relative;
+  bottom: 50px;
+  right: 50px;
+}
+.aboutTheAuthor {
+  padding-left: 150px;
+  max-width: 600px;
+}
+.blockText {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  font-family: "Cardo", sans-serif;
+  font-weight: 400;
+  font-size: 42px;
+  color: rgba(27, 55, 100, 1);
+  margin-top: 0;
+}
+.title::before {
+  content: "";
+  position: absolute;
+  background-color: rgba(255, 202, 66, 1);
+  width: 50px;
+  height: 3px;
+  margin-top: 75px;
+  margin-left: 5px;
+}
+.description {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  color: rgba(150, 154, 160, 1);
+}
+.rating {
+  display: flex;
+}
+.ratingBlock1 {
+  display: flex;
+  flex-direction: column;
+  padding-right: 25px;
+  margin-top: 20px;
+}
+.ratingBlock1::before {
+  content: "";
+  position: absolute;
+  background-color: rgba(255, 202, 66, 1);
+  width: 1px;
+  height: 98px;
+  margin-top: 10px;
+  margin-left: 157px;
+}
+.ratingBlock2 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+  margin-top: 20px;
+}
+.ratingBlock2::before {
+  content: "";
+  position: absolute;
+  background-color: rgba(255, 202, 66, 1);
+  width: 1px;
+  height: 98px;
+  margin-top: 10px;
+  margin-left: 155px;
+}
+.ratingBlock3 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 90px;
+  margin-top: 20px;
+}
+.ratingTitle {
+  font-family: "Cardo", sans-serif;
+  font-weight: 400;
+  font-size: 54px;
+  color: rgba(27, 55, 100, 1);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.descriptionRating {
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: rgba(150, 154, 160, 1);
+}
+.contactsAuthor {
+  display: flex;
+  width: 484px;
+  height: 161px;
+  align-items: center;
+  background-color: rgba(27, 55, 100, 1);
+}
+.contactsAuthor img {
+  position: relative;
+  left: 20px;
+  box-shadow: 0 0 20 0 rgba(27, 55, 100, 0.09);
+}
+.paragraphDesc{
+padding-left: 55px;
+}
+.authorName{
+    font-family: 'Cardo', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: rgba(255, 202, 66, 1);
+}
+.authorContact{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(180, 199, 231, 1);
+}
+
